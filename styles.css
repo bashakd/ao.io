@@ -61,6 +61,15 @@ body {
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4), -4px -4px 8px rgba(255, 255, 255, 0.2);
 }
 
+.button-container .payslip {
+    background: linear-gradient(145deg, #3f4f42, #3f4f42); /* Gradient for approve */
+}
+
+.button-container .payslip:hover {
+    background: linear-gradient(145deg, #3f4f42, #3f4f42);
+    transform: scale(1.1);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4), -4px -4px 8px rgba(255, 255, 255, 0.2);
+}
 /* Responsive Design */
 @media (max-width: 768px) {
     .button-container button {
